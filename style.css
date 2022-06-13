@@ -398,6 +398,7 @@ h5,
   margin: 0 2.8vw;
   align-self: center;
   display: inline-flex;
+  text-decoration: none;
 }
 .contact-icons img {
   height: 3.6vw;

@@ -413,6 +413,71 @@ h5,
   margin: auto 0 10vh;
 }
 
+/* Footer */
+.contact-me {
+  background: #05808462;
+  margin: 50px 80px;
+  padding: 50px 80px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  align-items: center;
+}
+.contact-me h3 {
+  font-size: 48px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.contact-me p {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #000000a2;
+}
+
+.contact-me a {
+  background-color: var(--theme-background);
+  font-size: 24px;
+  padding: 15px 30px;
+}
+
+.email-block {
+  margin: 30px;
+  font-size: 36px;
+  text-align: center;
+}
+.email-block a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.email-block a:hover {
+  color: var(--first-accent-color);
+}
+
+.contact-icons-block {
+  font-size: 30px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+.contact-icons-block a {
+  color: white;
+  background: #05808462;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 25px;
+  text-decoration: none;
+  transition: all 100ms ease-out;
+}
+
+.contact-icons-block a:hover {
+  background-color: var(--first-accent-color);
+}
+
 /* THEME TONGGLE SWITCH */
 input[type="checkbox"] {
   height: 0;
@@ -593,6 +658,17 @@ label:active:after {
   .project-links i {
     font-size: 42px;
   }
+
+  .contact-me {
+    flex-direction: column;
+  }
+  .contact-me h3,
+  .contact-me p {
+    text-align: center;
+  }
+  .contact-me a {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -602,5 +678,21 @@ label:active:after {
   .btn-fill,
   .btn-transparent {
     margin-right: 0;
+  }
+
+  .contact-me {
+    margin: 50px 40px;
+    padding: 50px 40px;
+  }
+  .contact-me h3 {
+    font-size: 30px;
+  }
+
+  .contact-me p {
+    font-size: 18px;
+  }
+
+  .contact-me a {
+    font-size: 18px;
   }
 }

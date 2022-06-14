@@ -401,9 +401,13 @@ h5,
   height: 3.6vw;
 }
 
-.coryright {
+.copyright {
   font-size: 1vw;
   margin: auto 0 10vh;
+  text-align: center;
+}
+.copyright a {
+  color: var(--second-accent-color);
 }
 
 /* Footer */
@@ -526,8 +530,8 @@ h5,
   .contact-icons img {
     height: 4.5vh;
   }
-  .coryright {
-    font-size: 1.5vh;
+  .copyright {
+    font-size: 1.8vh;
   }
 }
 

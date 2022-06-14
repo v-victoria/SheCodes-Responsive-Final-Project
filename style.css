@@ -196,8 +196,7 @@ h5,
 }
 
 /* Main buttons settings */
-.btn-fill,
-.btn-transparent {
+.btn-fill {
   font-size: 1.3vw;
   font-weight: 600;
   text-align: center;
@@ -216,13 +215,7 @@ h5,
 .btn-fill:hover {
   color: var(--footer-text-color);
 }
-.btn-transparent {
-  color: var(--first-accent-color);
-  background: var(--theme-background);
-}
-.btn-transparent:hover {
-  color: var(--first-accent-color);
-}
+
 /* Main buttons settings END*/
 
 /* About-me page */
@@ -494,6 +487,7 @@ h5,
     font-size: 6vw;
   }
   .homepage-center-block {
+    margin-top: 100px;
     flex-direction: column;
   }
   .homepage-text-block {
@@ -645,14 +639,25 @@ h5,
     padding: 50px 40px;
   }
   .contact-me h3 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .contact-me p {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .contact-me a {
     font-size: 18px;
+  }
+  .email-block {
+    font-size: 24px;
+  }
+
+  .contact-icons-block {
+    font-size: 20px;
+  }
+  .contact-icons-block a {
+    width: 45px;
+    height: 45px;
   }
 }
